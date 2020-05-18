@@ -1,0 +1,33 @@
+﻿nav.fir_menu{
+    font-family: 'Amatic SC', cursive;
+font-size: 1.3em;
+    background-color: rgb(255, 233, 159);
+    width: 460px;
+    padding: 15px;
+    height: 300px;
+    border: 3px solid rgb(240, 187, 128);
+    
+}
+a{
+  text-decoration: none;
+  color:rgb(102, 102, 235);
+}
+a:active{
+  color: white;
+}
+.zz>li{
+  text-align: left;
+position: relative;
+margin-bottom: 12px;}
+p.razdel{
+text-align: center;
+}
+
+ul.zz{
+margin:0px 20px;
+
+padding: 0px;
+
+
+
+}
