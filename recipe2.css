@@ -1,5 +1,7 @@
 ﻿body{
     background-color: rgb(216, 147, 98);
+    display: flex;
+    justify-content: center;
 }
 nav.fir_menu{
     font-family: 'Amatic SC', cursive;
