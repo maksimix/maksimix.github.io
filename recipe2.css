@@ -1,15 +1,18 @@
 ﻿body{
     background-color: rgb(216, 147, 98);
-    display: flex;
-    justify-content: center;
+    font-family: 'Balsamiq Sans', cursive;
+    display:flex;
+    justify-content: flex-start;
 }
-nav.fir_menu{
-    font-family: 'Amatic SC', cursive;
-font-size: 1.3em;
+div nav.fir_menu{
+    
+font-size: 1.9rem;
+
+
     background-color: rgb(255, 233, 159);
-    width: 160px;
+    width: 300px;
     padding: 15px;
-    height: 600px;
+    height:100vh;
     border: 3px solid rgb(240, 187, 128);
     
 }
@@ -22,20 +25,35 @@ ul.zz{
 
 }
 
+
+div.img{
+   float:right;
+margin-left:200px;
+   background-color: red;
+   width: 800px;
+   height:800px;
+   background: url(img/IMG_2110.jpeg) no-repeat;
+   background-size: cover;
+}
+
 .zz>li{text-align: left;
-
-
-
-
     position: relative;
-margin-bottom: 10px;}
+margin-bottom: 40px;}
+li>a{
+    text-decoration: none;
+    color:rgb(36, 36, 167);
+
+}
+li>a:hover{
+    color:rgb(60, 148, 231);
+}
 p.razdel   {
     border-bottom: 1px solid red;
-   font-size: 1.3em;
+   font-size: 3rem;
    margin:0px 0px 20px 0px;
    font-weight: bold;
     color: rgb(76, 95, 150);
-
+text-align: center;
 }
 .zav:active .zavtrak{
     display: block;
