@@ -1,6 +1,6 @@
 ﻿body{
     background-color: rgb(216, 147, 98);
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     display:flex;
     justify-content: flex-start;
 }
