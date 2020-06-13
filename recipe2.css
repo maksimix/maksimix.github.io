@@ -6,7 +6,7 @@
 }
 div nav.fir_menu{
     
-font-size: 1.9rem;
+font-size: 2.9rem;
 
 
     background-color: rgb(255, 233, 159);
@@ -28,12 +28,13 @@ ul.zz{
 
 div.img{
    float:right;
-margin-left:100px;
+margin-left:50px;
    background-color: red;
    width: 800px;
    height:800px;
    background: url(IMG_2110.jpeg) no-repeat;
    background-size: cover;
+   border: 3px solid rgb(240, 187, 128);
 }
 
 .zz>li{text-align: left;
