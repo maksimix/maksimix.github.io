@@ -2,7 +2,11 @@
     background-color: rgb(216, 147, 98);
     font-family: Arial, Helvetica, sans-serif;
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
+}
+div .fir_menu{
+
+
 }
 div nav.fir_menu{
     
@@ -10,7 +14,7 @@ font-size: 2.9rem;
 
 
     background-color: rgb(255, 233, 159);
-    width: 300px;
+    width: 100%;
     padding: 15px;
     height:100vh;
     border: 3px solid rgb(240, 187, 128);
@@ -26,28 +30,10 @@ ul.zz{
 }
 
 
-div.img{
-   float:right;
-margin-left:50px;
-   background-color: red;
-   width: 800px;
-   height:800px;
-   background: url(IMG_2110.jpeg) no-repeat;
-   background-size: cover;
-   border: 3px solid rgb(240, 187, 128);
-  
-  
-   align-items: top;
-}
-p.img{
-  vertical-align: top;
-  font-size: 1.8rem;
-  background:ghostwhite;
-  width: 200px;
-}
-.zz>li{text-align: left;
+
+.zz>li+li{text-align: left;
     position: relative;
-margin-bottom: 40px;}
+margin-top: 40px;}
 li>a{
     text-decoration: none;
     color:rgb(36, 36, 167);
