@@ -1,5 +1,7 @@
 ﻿body{
-    background-color: rgb(216, 147, 98);
+    background-image: url(sss.jpg);
+    background-size: cover;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
     display:flex;
     justify-content: center;
