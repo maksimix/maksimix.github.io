@@ -12,13 +12,28 @@
 <div class="container">
 <header>
    <span>Тушенное мясо</span>
+   <button class="toggle-menu" id="toggle-menu"></button>
+   <div class="main-menu" id="main-menu">
+       <ul>
+           <li><a href="#">Вернуться на главную</a></li>
+           <li><a href="#">Вернуться на предыдущую</a></li>
+           
+           
+           <li></li>
+
+       </ul>
+   </div>
 </header>
 <aside>
-    <ol>
+
+    <p class="a1">Ингредиенты</p>
+    <ol class="a2">
         <li>Свинина(говядина)</li>
         <li>Лук</li>
         <li>Томатная паста</li>
         <li>Мука</li>
+    </ol>
+    <ol start="5" class="a3">
         <li>Подсолнечное масло</li>
         <li>Соль,перец</li>
         <li>Чеснок(2 зубч)</li>
@@ -43,7 +58,16 @@
 </ol>
 </main>
 </div>
-
+<script type="text/javascript">
+	(function() {
+		var button = document.getElementById('toggle-menu');
+		button.addEventListener('click', function(event) { 
+			event.preventDefault();
+			var menu = document.getElementById('main-menu');
+			menu.classList.toggle('is-open');
+		});
+	})();
+</script>
 </body>
 
 </html>
