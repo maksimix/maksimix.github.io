@@ -1,15 +1,13 @@
 ﻿body{
     background-image: url(sss.jpg);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+ 
     font-family: Arial, Helvetica, sans-serif;
     display:flex;
     justify-content: center;
 }
-div .fir_menu{
 
-
-}
 div nav.fir_menu{
     
 font-size: 2.9rem;
