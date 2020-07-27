@@ -35,7 +35,7 @@ ul.zz{
 
 .zz>li+li{text-align: left;
     position: relative;
-margin-top: 40px;}
+margin-top: 10px;}
 li>a{
     text-decoration: none;
     color:rgb(36, 36, 167);

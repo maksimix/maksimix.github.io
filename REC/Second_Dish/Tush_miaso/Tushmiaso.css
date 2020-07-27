@@ -16,16 +16,18 @@ height: 100vh;
     padding: 15px;
 
     border: 3px solid rgb(240, 187, 128);
-    font-size: 1.2em;
+    font-size: 1.5em;
    line-height: 2;
     }
     header{
-        font-size: 2rem;
+        font-size: 2em;
         text-align: center;
         color:blue;
         position: relative;
     }
  aside{
+    border-top: 5px solid rgb(224, 160, 42);
+    border-bottom: 5px solid rgb(224, 160, 42);
      display:grid;
     grid-template-areas: "a1 a1"
     "a2 a3";
