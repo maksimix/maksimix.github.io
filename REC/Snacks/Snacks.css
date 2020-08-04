@@ -1,0 +1,61 @@
+body{
+    background-image: url(sss.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+}
+div .fir_menu{
+
+
+}
+div nav.fir_menu{
+    
+font-size: 2.9rem;
+min-width: 11em;
+
+    background-color: rgb(255, 233, 159);
+    width: 100%;
+    padding: 15px;
+    height:100vh;
+    border: 3px solid rgb(240, 187, 128);
+    
+}
+ul.zz{
+    margin:0px 20px;
+    list-style: none;
+    padding: 0px;
+
+
+
+}
+
+
+
+.zz>li+li{text-align: left;
+    position: relative;
+margin-top: 40px;}
+li>a{
+    text-decoration: none;
+    color:rgb(36, 36, 167);
+
+}
+li>a:hover{
+    color:rgb(60, 148, 231);
+}
+p.razdel   {
+    border-bottom: 1px solid red;
+   font-size: 4rem;
+   margin:0px 0px 20px 0px;
+   font-weight: bold;
+    color: rgb(76, 95, 150);
+text-align: center;
+}
+.zav:active .zavtrak{
+    display: block;
+}
+
+
+  
+    
