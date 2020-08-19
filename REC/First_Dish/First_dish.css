@@ -1,0 +1,59 @@
+body{
+    background-image: url(../Second_Dish/sss1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+}
+
+div nav.fir_menu{
+    
+font-size: 2.9rem;
+
+
+    background-color: rgb(255, 233, 159);
+    width: 100%;
+    padding: 15px;
+    height:100vh;
+    border: 3px solid rgb(240, 187, 128);
+    
+}
+ul.zz{
+    margin:0px 20px;
+    list-style: none;
+    padding: 0px;
+
+
+
+}
+
+
+
+.zz>li+li{text-align: left;
+    position: relative;
+margin-top: 10px;}
+li>a{
+    text-decoration: none;
+    color:rgb(36, 36, 167);
+
+}
+li>a:hover{
+    color:rgb(60, 148, 231);
+}
+p.razdel   {
+    border-bottom: 1px solid red;
+   font-size: 4rem;
+   margin:0px 0px 20px 0px;
+   font-weight: bold;
+    color: rgb(76, 95, 150);
+text-align: center;
+}
+.zav:active .zavtrak{
+    display: block;
+}
+
+
+  
+    
