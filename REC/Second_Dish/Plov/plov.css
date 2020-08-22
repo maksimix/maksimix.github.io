@@ -50,12 +50,11 @@ aside ol.a3{
     grid-area:a3;
    margin: 0 auto;
 }
-main{
-    line-height: 3;
+
+main>ol li + li{
+margin-top:1em;
 }
-main>ol li{
-    line-height: 3;
-}
+    
 button.toggle-menu{
     position: absolute;
 	
