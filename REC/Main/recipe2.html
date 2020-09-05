@@ -27,24 +27,26 @@
 
 
 </ul>
-
+<div id="clock"></div>
 </nav>
 
 
 
-<div class="me2">
-
-
-
-
 
 </div>
-</div>
 
 
 
 
-
+<script>
+    window.onload = function(){
+ window.setInterval(function(){
+      var now = new Date();
+       var clock = document.getElementById("clock");
+     clock.innerHTML = now.toLocaleTimeString();
+ }, 1000);
+};
+</script>
 </body>
 
 </html>
